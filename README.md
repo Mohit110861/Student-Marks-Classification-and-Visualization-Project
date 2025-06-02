@@ -54,6 +54,61 @@ The code outputs accuracy and classification reports for each model.
 
 After training, the user can input custom student data (such as gender, grade, semester, hands raised, etc.) to get predictions from all five models on the marks class.
 
+### Data Visualization Output and Graph Explanation
+
+When you run the script, it displays the following menu options to select different graphs related to the student marks classification data:
+
+
+---
+
+#### Explanation of Each Graph:
+
+1. **Marks Class Count Graph:**  
+   A simple bar chart showing the total count of students in each marks class (`L`, `M`, `H`). This helps understand the distribution of students across different performance levels.
+
+2. **Marks Class Semester-wise Graph:**  
+   A grouped bar chart showing the number of students in each marks class broken down by semester (e.g., First or Second semester). This reveals if semester influences performance distribution.
+
+3. **Marks Class Gender-wise Graph:**  
+   A grouped bar chart that shows marks class distribution for male and female students. Useful to check if gender correlates with performance classes.
+
+4. **Marks Class Nationality-wise Graph:**  
+   Displays the counts of each marks class for different nationalities, showing how performance varies across student nationalities.
+
+5. **Marks Class Grade-wise Graph:**  
+   Shows marks class counts broken down by grade level (e.g., G-02 to G-12). This can highlight trends in performance as students progress through grades.
+
+6. **Marks Class Section-wise Graph:**  
+   A grouped bar chart showing marks classes distributed by section IDs, indicating how performance differs across sections or groups.
+
+7. **Marks Class Topic-wise Graph:**  
+   Displays the count of students in each marks class for different topics (subjects). Helps analyze which subjects might influence student marks class.
+
+8. **Marks Class Stage-wise Graph:**  
+   Shows performance class counts across different stages (StageID), which might correspond to learning or evaluation phases.
+
+9. **Marks Class Absent Days-wise Graph:**  
+   A grouped bar chart showing marks class counts broken down by student absence days (`Under-7` or `Above-7` days). This helps to analyze how absenteeism impacts performance.
+
+10. **No Graph (Exit):**  
+    Exits the visualization menu.
+
+---
+
+#### Sample Graph Interpretation:
+
+For example, the **Marks Class Gender-wise Graph** might show that female students have a higher count in the `H` (high marks) class compared to male students, suggesting a possible gender performance gap. Similarly, the **Absent Days-wise Graph** might reveal that students with fewer absences tend to fall more in the `H` class, indicating attendance affects academic performance.
+
+Each graph uses color hues to differentiate the marks classes (`L`, `M`, `H`) and provides a clear visual representation of how different factors relate to student marks classification.
+
+---
+
+### Output Example in Console
+
+Upon running, the menu appears:
+
+
+
 ---
 
 ## How to Run
